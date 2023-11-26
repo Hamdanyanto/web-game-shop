@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: darkblue;
+    background-color: #3944C3;
 }
 
 Navbar {
@@ -82,12 +82,12 @@ nav ul li a:hover
 }
 
 .promo1{
-    margin-top: -290px;
+    margin-top: -300px;
     margin-left: 78%;
     color: aliceblue;
 }
 
-.promoML {
+.promo2 {
     width: 350px;
     margin-top: -5px;
     margin-left: 68%; 
@@ -158,7 +158,7 @@ nav ul li a:hover
 
 .tittle-p
 {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 70px;
 }
 
@@ -209,5 +209,35 @@ border-radius: 10px;
 {
     width: 20px;
     margin-top: 15px;
+}
+
+.promo3
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.akunml1
+{
+    width: 300%;
+    height: 80%;
+    margin-left: -5%;
+}
+
+.akunml2
+{
+    width: 300%;
+    height: 80%;
+    margin-left: 200%;  
+}
+
+
+h6 ul li a
+{
+    justify-content: center;
+    color: black;
+    display: flex;
 }
 
