@@ -8,12 +8,12 @@
 }
 
 body {
-    background-color: #3944C3;
+    background-color: #FFFFFF;
 }
 
 Navbar {
     text-align: center;
-    background-color: #1D2042;
+    background-color: #0A1C3E;
     position: fixed;
     width: 100%;
     height: 70px;
@@ -37,6 +37,10 @@ nav ul.navigasipertama {
     margin-left: 100px;
 }
 
+nav ul li a{
+    color: #FFFFFF;
+}
+
 .input-search {
     width: 300px;
     height: 20px;
@@ -58,18 +62,18 @@ nav ul.navigasipertama {
     font-weight: bold;
 }
 
-nav ul.login{
+nav p.login{
     justify-content: center;
     margin-top: 25px;
     gap: 20px;
     margin-left: 100px;
 }
 
-nav ul li a{
-    color: green;
+nav p a{
+    color: #FFFFFF;
 }
 
-nav ul li a:hover
+nav p a:hover
 {
     border-bottom: 2px solid white;
 }
@@ -84,7 +88,8 @@ nav ul li a:hover
 .promo1{
     margin-top: -300px;
     margin-left: 78%;
-    color: aliceblue;
+    font-weight: bold;
+    color: #000000;
 }
 
 .promo2 {
@@ -94,10 +99,16 @@ nav ul li a:hover
 }
 
 .linkPromo {
-    margin-left: 78%;
-    color: aliceblue;
+    margin-left: 80%;
+    font-weight: bold;
+    color: #249475;
 }
 
+.judul-produk
+{
+    color: #249475;
+    font-weight: bold;
+}
 .overlay 
 {
     position: fixed;
@@ -233,11 +244,29 @@ border-radius: 10px;
     margin-left: 200%;  
 }
 
-
-h6 ul li a
+header6
 {
-    justify-content: center;
-    color: black;
+    width: 500px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: -200px; 
     display: flex;
+}   
+
+div p a {
+    color: #249475;
+}
+
+.linkPromo2 {
+    width: 350px;
+    margin-top: -5px;
+    margin-left: 500px; 
+}
+
+.linkPromo3 {
+    width: 350px;
+    margin-top: -5x;
+    margin-left: 230px; 
 }
 
