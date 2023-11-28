@@ -5,40 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GenX</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <Navbar>
-      <a href="/"><img class="logo"src="assets/LOGO-FIX-GENX 1.png"></a>
-      <nav>
-        <ul class="navigasipertama">
+    <navbar class="navbar">
+      <img class="logo" src="assets/LOGO-FIX-GENX 1.png" />
+      <nav class="navigasi">
+        <ul class="navigasiList">
           <li><a href="#">PROMO</a></li>
           <li><a href="#">LIST DM</a></li>
           <li><a href="#">ACCOUNT GAME</a></li>
           <li><a href="#">SERVICE</a></li>
         </ul>
       </nav>
-      <input type="search" name="" id="" class="input-search" placeholder="Cari Sesuatu Disini...">
-      <button type="submit" class="input-submit">CARI</button>
-      <nav>
-        <p class="login"> <a href="#">SIGN UP</a></p>
-      </nav>
-    </Navbar>
+
+      <div class="search">
+        <input
+          type="search"
+          name=""
+          id=""
+          class="input-search"
+          placeholder=" Cari Sesuatu Disini..."
+        />
+        <button type="submit" class="input-submit">CARI</button>
+        <a href="#" class="login">SIGN UP</a>
+      </div>
+    </navbar>
 
     <header1>
       <div>
         <img class="imgHeader" src="assets/TEMPAT TOP UP.png" />
       </div>
-    </header>
+    </header1>
 
     <header2>
       <div>
         <p class="promo1">BEST PROMO</p>
       </div>
-     
-      <div>
-        <img class="promo2" src="assets/Promo-ML.png"
-      </div>
-        
+
+      <div><img class="promo2" src="assets/Promo-ML.png"</div>
+
       <div>
         <a href="/" class="linkPromo">klik here</a>
       </div>
@@ -48,213 +56,229 @@
     <section id="populer" class="populer">
       <div class="pubg">
         <div class="link">
-            <a href="#harga-pubg">
-                    <img src="assets/PUBG.png" alt="">
-                    <div class="judul-produk">PUBG</div>
-            </a>
+          <a href="#harga-pubg">
+            <img src="assets/PUBG.png" alt="" />
+            <div class="judul-produk">PUBG</div>
+          </a>
         </div>
         <div class="overlay" id="harga-pubg">
-            <div class="popup">
-                <h2>HARGA PUBG</h2>
-                <a class="close" href="#populer">&times;</a>
-                <br>
-                <div class="content">
-                    12 UC  : 
-                    <br>    
-                    <span class="harga">Rp 3.500</span>
-                    <br>
-                    28 UC : 
-                    <br>
-                    <span class="harga">Rp 8.000</span>
-                    <br>
-                    36 UC : 
-                    <br>
-                    <span class="harga">Rp 10.000</span>
-                    <br>
-                    56 UC : 
-                    <br>
-                    <span class="harga">Rp 16.000</span>
-                    <br>
-                    85 UC : 
-                    <br>
-                    <span class="harga">Rp 23.000</span>
-                    <br>
-                    169 UC  : 
-                    <br>
-                    <span class="harga">Rp 46.000</span>
-                    <br>
-                    220 UC : 
-                    <br>
-                    <span class="harga">Rp 60.000</span>
-                    <br>
-                    282 UC : 
-                    <br>
-                    <span class="harga">Rp 80.000</span>
-                    <br>
-                    <a class="pesan" href="https://wa.me/6285794929291" 
-                    target="_blank" 
-                    rel="noopener noreferrer"><img src="assets/whatsapp.png" alt="">Pesan Sekarang</a>
-                </div>
+          <div class="popup">
+            <h2>HARGA PUBG</h2>
+            <a class="close" href="#populer">&times;</a>
+            <br />
+            <div class="content">
+              12 UC :
+              <br />
+              <span class="harga">Rp 3.500</span>
+              <br />
+              28 UC :
+              <br />
+              <span class="harga">Rp 8.000</span>
+              <br />
+              36 UC :
+              <br />
+              <span class="harga">Rp 10.000</span>
+              <br />
+              56 UC :
+              <br />
+              <span class="harga">Rp 16.000</span>
+              <br />
+              85 UC :
+              <br />
+              <span class="harga">Rp 23.000</span>
+              <br />
+              169 UC :
+              <br />
+              <span class="harga">Rp 46.000</span>
+              <br />
+              220 UC :
+              <br />
+              <span class="harga">Rp 60.000</span>
+              <br />
+              282 UC :
+              <br />
+              <span class="harga">Rp 80.000</span>
+              <br />
+              <a
+                class="pesan"
+                href="https://wa.me/6285794929291"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="assets/whatsapp.png" alt="" />Pesan Sekarang</a
+              >
             </div>
+          </div>
         </div>
       </div>
 
       <div class="ff">
         <div class="link">
-            <a href="#harga-ff">
-                    <img src="assets/FF.png" alt="">
-                    <div class="judul-produk">FREE FIRE</div>
-            </a>
+          <a href="#harga-ff">
+            <img src="assets/FF.png" alt="" />
+            <div class="judul-produk">FREE FIRE</div>
+          </a>
         </div>
         <div class="overlay" id="harga-ff">
-            <div class="popup">
-                <h2>HARGA FREE FIRE</h2>
-                <a class="close" href="#populer">&times;</a>
-                <br>
-                <div class="content">
-                    70 Diamonds  : 
-                    <br>    
-                    <span class="harga">Rp 10.000</span>
-                    <br>
-                    140 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 20.000</span>
-                    <br>
-                    210 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 30.000</span>
-                    <br>
-                    280 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 40.000</span>
-                    <br>
-                    355 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 50.000</span>
-                    <br>
-                    500 Diamond  : 
-                    <br>
-                    <span class="harga">Rp 70.000</span>
-                    <br>
-                    720 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 100.000</span>
-                    <br>
-                    1000 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 130.000</span>
-                    <br>
-                    <a class="pesan" href="https://wa.me/6285794929291" 
-                    target="_blank" 
-                    rel="noopener noreferrer"><img src="assets/whatsapp.png" alt="">Pesan Sekarang</a>
-                </div>
+          <div class="popup">
+            <h2>HARGA FREE FIRE</h2>
+            <a class="close" href="#populer">&times;</a>
+            <br />
+            <div class="content">
+              70 Diamonds :
+              <br />
+              <span class="harga">Rp 10.000</span>
+              <br />
+              140 Diamonds :
+              <br />
+              <span class="harga">Rp 20.000</span>
+              <br />
+              210 Diamonds :
+              <br />
+              <span class="harga">Rp 30.000</span>
+              <br />
+              280 Diamonds :
+              <br />
+              <span class="harga">Rp 40.000</span>
+              <br />
+              355 Diamonds :
+              <br />
+              <span class="harga">Rp 50.000</span>
+              <br />
+              500 Diamond :
+              <br />
+              <span class="harga">Rp 70.000</span>
+              <br />
+              720 Diamonds :
+              <br />
+              <span class="harga">Rp 100.000</span>
+              <br />
+              1000 Diamonds :
+              <br />
+              <span class="harga">Rp 130.000</span>
+              <br />
+              <a
+                class="pesan"
+                href="https://wa.me/6285794929291"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="assets/whatsapp.png" alt="" />Pesan Sekarang</a
+              >
             </div>
+          </div>
         </div>
       </div>
 
       <div class="genshin">
         <div class="link">
-            <a href="#harga-genshin">
-                    <img src="assets/Genshin.png" alt="">
-                    <div class="judul-produk">GENSHIN IMPACT</div>
-            </a>
+          <a href="#harga-genshin">
+            <img src="assets/Genshin.png" alt="" />
+            <div class="judul-produk">GENSHIN IMPACT</div>
+          </a>
         </div>
         <div class="overlay" id="harga-genshin">
-            <div class="popup">
-                <h2>HARGA GENSHIN IMPACT</h2>
-                <a class="close" href="#populer">&times;</a>
-                <br>
-                <div class="content">
-                    70 Diamonds  : 
-                    <br>    
-                    <span class="harga">Rp 10.000</span>
-                    <br>
-                    140 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 20.000</span>
-                    <br>
-                    210 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 30.000</span>
-                    <br>
-                    280 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 40.000</span>
-                    <br>
-                    355 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 50.000</span>
-                    <br>
-                    500 Diamond  : 
-                    <br>
-                    <span class="harga">Rp 70.000</span>
-                    <br>
-                    720 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 100.000</span>
-                    <br>
-                    1000 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 130.000</span>
-                    <br>
-                    <a class="pesan" href="https://wa.me/6285794929291" 
-                    target="_blank" 
-                    rel="noopener noreferrer"><img src="assets/whatsapp.png" alt="">Pesan Sekarang</a>
-                </div>
+          <div class="popup">
+            <h2>HARGA GENSHIN IMPACT</h2>
+            <a class="close" href="#populer">&times;</a>
+            <br />
+            <div class="content">
+              70 Diamonds :
+              <br />
+              <span class="harga">Rp 10.000</span>
+              <br />
+              140 Diamonds :
+              <br />
+              <span class="harga">Rp 20.000</span>
+              <br />
+              210 Diamonds :
+              <br />
+              <span class="harga">Rp 30.000</span>
+              <br />
+              280 Diamonds :
+              <br />
+              <span class="harga">Rp 40.000</span>
+              <br />
+              355 Diamonds :
+              <br />
+              <span class="harga">Rp 50.000</span>
+              <br />
+              500 Diamond :
+              <br />
+              <span class="harga">Rp 70.000</span>
+              <br />
+              720 Diamonds :
+              <br />
+              <span class="harga">Rp 100.000</span>
+              <br />
+              1000 Diamonds :
+              <br />
+              <span class="harga">Rp 130.000</span>
+              <br />
+              <a
+                class="pesan"
+                href="https://wa.me/6285794929291"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="assets/whatsapp.png" alt="" />Pesan Sekarang</a
+              >
             </div>
+          </div>
         </div>
       </div>
 
       <div class="mlbb">
         <div class="link">
-            <a href="#harga-MLBB">
-                    <img src="assets/MLBB.png" alt="">
-                    <div class="judul-produk">MOBILE LEGEND</div>
-            </a>
+          <a href="#harga-MLBB">
+            <img src="assets/MLBB.png" alt="" />
+            <div class="judul-produk">MOBILE LEGEND</div>
+          </a>
         </div>
         <div class="overlay" id="harga-MLBB">
-            <div class="popup">
-                <h2>HARGA MOBILE LEGEND</h2>
-                <a class="close" href="#populer">&times;</a>
-                <br>
-                <div class="content">
-                    12 Diamonds  : 
-                    <br>    
-                    <span class="harga">Rp 3.500</span>
-                    <br>
-                    28 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 8.000</span>
-                    <br>
-                    36 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 10.000</span>
-                    <br>
-                    56 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 16.000</span>
-                    <br>
-                    85 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 23.000</span>
-                    <br>
-                    169 Diamond  : 
-                    <br>
-                    <span class="harga">Rp 46.000</span>
-                    <br>
-                    220 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 60.000</span>
-                    <br>
-                    282 Diamonds : 
-                    <br>
-                    <span class="harga">Rp 80.000</span>
-                    <br>
-                    <a class="pesan" href="https://wa.me/6285794929291" 
-                    target="_blank" 
-                    rel="noopener noreferrer"><img src="assets/whatsapp.png" alt="">Pesan Sekarang</a>
-                </div>
+          <div class="popup">
+            <h2>HARGA MOBILE LEGEND</h2>
+            <a class="close" href="#populer">&times;</a>
+            <br />
+            <div class="content">
+              12 Diamonds :
+              <br />
+              <span class="harga">Rp 3.500</span>
+              <br />
+              28 Diamonds :
+              <br />
+              <span class="harga">Rp 8.000</span>
+              <br />
+              36 Diamonds :
+              <br />
+              <span class="harga">Rp 10.000</span>
+              <br />
+              56 Diamonds :
+              <br />
+              <span class="harga">Rp 16.000</span>
+              <br />
+              85 Diamonds :
+              <br />
+              <span class="harga">Rp 23.000</span>
+              <br />
+              169 Diamond :
+              <br />
+              <span class="harga">Rp 46.000</span>
+              <br />
+              220 Diamonds :
+              <br />
+              <span class="harga">Rp 60.000</span>
+              <br />
+              282 Diamonds :
+              <br />
+              <span class="harga">Rp 80.000</span>
+              <br />
+              <a
+                class="pesan"
+                href="https://wa.me/6285794929291"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="assets/whatsapp.png" alt="" />Pesan Sekarang</a
+              >
             </div>
+          </div>
         </div>
       </div>
     </section>
@@ -262,21 +286,21 @@
     <h2 class="tittle-p">PROMO</h2>
     <section id="promo3" class="promo3">
       <div>
-        <img class="akunml1" src="assets/Akun-ml1.png" alt="">
+        <img class="akunml1" src="assets/Akun-ml1.png" alt="" />
       </div>
       <div>
-        <img class="akunml2" src="assets/Akun-ml2.png" alt="">
+        <img class="akunml2" src="assets/Akun-ml2.png" alt="" />
       </div>
     </section>
 
     <header6>
       <div>
-        <p class="linkPromo2"> <a href="/" >klik here</a></p>
+        <p class="linkPromo2"><a href="/">klik here</a></p>
       </div>
 
       <div>
-        <p class="linkPromo3"> <a href="/" >klik here</a></p>
-      </div> 
+        <p class="linkPromo3"><a href="/">klik here</a></p>
+      </div>
     </header6>
-  </body> 
+  </body>
 </html>
