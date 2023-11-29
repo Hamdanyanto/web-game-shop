@@ -7,6 +7,8 @@
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
+/* navigasi */
 .navbar {
   background-color: #0a1c3e;
   position: fixed;
@@ -27,7 +29,7 @@
 }
 .navigasiList {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 nav ul li a {
@@ -59,40 +61,39 @@ nav ul li a {
   color: white;
 }
 
-nav p a {
-  color: #ffffff;
-}
+/* navigasi end */
+/* header */
 
-nav p a:hover {
-  border-bottom: 2px solid white;
+.header {
+  display: flex;
 }
-
 .imgHeader {
+  height: 400px;
+  margin: 150px 0 0 100px;
+}
+
+.bestPromo {
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.judulPromo {
+  text-align: center;
+}
+.imgBestPromo {
   height: 300px;
-  width: 750px;
-  margin-top: 100px;
-  margin-left: 65px;
 }
-
-.promo1 {
-  margin-top: -300px;
-  margin-left: 78%;
+.linkBestPromo {
   font-weight: bold;
-  color: #000000;
+  text-align: right;
+  margin: 40px;
 }
-
-.promo2 {
-  width: 350px;
-  margin-top: -5px;
-  margin-left: 68%;
+.linkBestPromo a {
+    color: #249475;  
 }
+/* header end */
 
-.linkPromo {
-  margin-left: 80%;
-  font-weight: bold;
-  color: #249475;
-}
-
+/* list game */
 .judul-produk {
   color: #249475;
   font-weight: bold;
@@ -150,21 +151,26 @@ nav p a:hover {
   width: 50%;
 }
 
-.tittle-p {
-  margin-top: 2%;
-  margin-left: 70px;
+/* list game */
+
+.judulList {
+  margin-left: 100px;
+  margin-bottom: 40px;
 }
 
-.populer {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+.listGame {
+  display: flex;
+  gap: 80px;
+  margin-left: 100px;
 }
 
 .populer img {
   border-radius: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
 }
 
 .harga {
@@ -181,7 +187,7 @@ nav p a:hover {
 
 .judul-produk {
   text-align: center;
-  margin-left: -40px;
+  margin-top: 20px;
 }
 .pesan {
   background-color: #06d85f;
