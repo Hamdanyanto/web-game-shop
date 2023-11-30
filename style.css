@@ -93,11 +93,7 @@ nav ul li a {
 }
 /* header end */
 
-/* list game */
-.judul-produk {
-  color: #249475;
-  font-weight: bold;
-}
+/* pop up */
 .overlay {
   position: fixed;
   top: 0;
@@ -152,6 +148,11 @@ nav ul li a {
 }
 
 /* list game */
+
+.judul-produk {
+  color: #249475;
+  font-weight: bold;
+}
 
 .judulList {
   margin-left: 100px;
