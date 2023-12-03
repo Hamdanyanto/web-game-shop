@@ -15,7 +15,7 @@
   width: 100%;
   height: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -77,19 +77,18 @@ nav ul li a {
   align-items: center;
   justify-content: center;
 }
-.judulPromo {
+.judulBestPromo {
   text-align: center;
 }
 .imgBestPromo {
-  height: 300px;
+  height: 250px;
 }
 .linkBestPromo {
   font-weight: bold;
   text-align: right;
-  margin: 40px;
 }
 .linkBestPromo a {
-    color: #249475;  
+  color: #249475;
 }
 /* header end */
 
@@ -156,6 +155,7 @@ nav ul li a {
 
 .judulList {
   margin-left: 100px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -207,47 +207,67 @@ nav ul li a {
   margin-top: 15px;
 }
 
+/* promo */
+
+.judulPromo {
+  margin: 40px 0 40px 100px;
+}
 .promo3 {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.akunml1 {
-  width: 300%;
-  height: 80%;
-  margin-left: -5%;
-}
-
-.akunml2 {
-  width: 300%;
-  height: 80%;
-  margin-left: 200%;
-}
-
-header6 {
-  width: 500px;
-  height: 70px;
-  font-weight: bold;
-  font-size: 12pt;
-  margin-top: -200px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.cardPromo {
+  width: 500px;
+  height: 600px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.imgAcount {
+  height: 400px;
+}
+
+.hargaPromo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 div p a {
   color: #249475;
 }
 
-.linkPromo2 {
-  width: 350px;
-  margin-top: -5px;
-  margin-left: 500px;
+.linkPromo {
+  text-align: right;
 }
 
-.linkPromo3 {
-  width: 350px;
-  margin-top: -5x;
-  margin-left: 230px;
-}
+/* promo end */
 
+.judul-diamond {
+  display: flex;
+  margin: 100px;
+}
+.judul-tittle {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-diamon-ml {
+  height: 40px;
+}
+.list-diamond label {
+  display: flex;
+  align-items: center;
+}
+.diamond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
